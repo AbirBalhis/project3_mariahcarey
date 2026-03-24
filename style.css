@@ -1,0 +1,146 @@
+body {
+  background-color: #f5f1f8;
+  color: #222222;
+  font-family: Verdana, Arial, sans-serif;
+  margin: 0px;
+}
+
+.wrapper {
+  width: 900px;
+  margin: 15px 15px 15px 15px;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 3px solid #7a4a8b;
+}
+
+header {
+  background-color: #7a4a8b;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin: 15px 15px 15px 15px;
+}
+
+footer {
+  background-color: #7a4a8b;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin: 15px 15px 15px 15px;
+}
+
+h1 {
+  color: white;
+  font-family: Verdana, Arial, sans-serif;
+  text-align: center;
+  font-size: 36px;
+}
+
+h2 {
+  color: #7a4a8b;
+  font-family: Verdana, Arial, sans-serif;
+  text-align: center;
+  font-size: 28px;
+}
+
+p {
+  color: #222222;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 16px;
+  margin: 15px 15px 15px 15px;
+}
+
+nav {
+  text-align: center;
+  margin: 15px 15px 15px 15px;
+  padding: 15px;
+  background-color: #e8dff0;
+}
+
+nav a {
+  color: #ffffff;
+  background-color: #7a4a8b;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 15px;
+  margin: 5px;
+  display: inline-block;
+}
+
+nav a:hover {
+  background-color: #c9a646;
+  color: black;
+}
+
+.content-box {
+  margin: 15px 15px 15px 15px;
+  padding: 20px;
+  border: 2px solid #d4c3dd;
+  background-color: #faf8fc;
+}
+
+.album {
+  margin: 15px 15px 15px 15px;
+  padding: 20px;
+  border: 2px solid #d4c3dd;
+  background-color: #faf8fc;
+}
+
+.news-box {
+  width: 250px;
+  min-height: 150px;
+  border: 5px solid #000000;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  margin: 15px 15px 15px 15px;
+  padding: 10px;
+}
+
+#news1 {
+  background-color: #f4b6c2;
+}
+
+#news2 {
+  background-color: #b6e3b6;
+}
+
+#news3 {
+  background-color: #b6d4f0;
+}
+
+.artist-image {
+  width: 250px;
+  height: auto;
+  border: 5px solid #000000;
+  padding: 5px;
+}
+
+.album-image {
+  width: 180px;
+  height: auto;
+  border: 5px solid #000000;
+  padding: 5px;
+}
+
+.float-left {
+  float: left;
+  margin: 15px 15px 15px 15px;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.caption {
+  font-size: 14px;
+  color: #555555;
+}
+
+#tagline {
+  color: #fff7ff;
+  text-align: center;
+  font-size: 18px;
+}
